@@ -438,6 +438,35 @@ h6 {
   color: #fff;
 }
 
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  .section-title h2 {
+    font-size: 24px !important;
+  }
+
+  #hero h1 {
+    font-size: 32px !important;
+  }
+
+  .why-us .content h3 {
+    font-size: 25px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .container-why-us {
+    width: 95% !important;
+  }
+
+  #footer .footer-top .footer-contact,
+  #footer .footer-top .footer-links,
+  #footer .footer-newsletter {
+    text-align: center !important;
+  }
+
+  #footer .footer-top .footer-links ul li {
+    justify-content: center !important;
+  }
+}
+
 #hero .btn-get-started:hover {
   background: #009970;
   border: 2px solid #009970;
@@ -451,7 +480,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
+    height: 80vh;
   }
 
   #hero .container {
